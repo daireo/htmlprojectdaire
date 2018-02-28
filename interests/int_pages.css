@@ -20,12 +20,44 @@
     
 }
 
+#section4{
+   background-image: url(https://media.giphy.com/media/2BEk5CO5pvoxG/source.gif);
+   background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    color:white;
+    text-shadow: 2px 1px black;
+    padding: 100px
+}
+
+#section5{
+   background-image: url(https://media.giphy.com/media/2BEk5CO5pvoxG/source.gif);
+   background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    color:white;
+    text-shadow: 2px 1px black;
+    padding: 100px 
+}
+
+#section6{
+    background-image: url(https://media.giphy.com/media/2BEk5CO5pvoxG/source.gif);
+   background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    color:white;
+    text-shadow: 2px 1px black;
+    padding: 100px;
+    font-size: 35px;
+    
+}
+
 .section{
     text-align: center;
-    color: red;
+    color: white;
     font-size: 40px;
-    text-shadow: 2px 1px white;
-    padding-right: 600px;
+    text-shadow: 2px 1px red;
+    padding: 200px;
    
     
 }

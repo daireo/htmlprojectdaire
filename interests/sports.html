@@ -1,84 +1,126 @@
 <!DOCTYPE html>
 <html>
-    <head>
-  
-  <title>117363273 HTML Project</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
- body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #565656;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-      background-color: #98E4F2;
-      color: #000000;
-  }
-  .bg-2 { 
-      background-color: #717568;
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #000000;
-  }
-  </style>
-</head>
+<title>My CV</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,button {font-family: "Montserrat", sans-serif}
+
+.button {
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+</style>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="https://htmlprojectdaire-daireo.c9users.io/homepage.html">Homepage</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        
-        <li><a href="https://htmlprojectdaire-daireo.c9users.io/CV/page1.html">Cirruculum Vitae</a></li>
-        <li><a href="https://htmlprojectdaire-daireo.c9users.io/interests/travel.html">Travel</a></li>
-        <li><a href="https://htmlprojectdaire-daireo.c9users.io/ebusiness/ebus1.php">eBusiness</a></li>
-      </ul>
-    </div>
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://htmlprojectdaire-daireo.c9users.io/homepage.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+    <a href="https://htmlprojectdaire-daireo.c9users.io/CV/page1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CV</a>
+    <a href="https://htmlprojectdaire-daireo.c9users.io/interests/sports.html" class="w3-bar-item w3-button w3-padding-large w3-white">Sports</a>
+    <a href="https://htmlprojectdaire-daireo.c9users.io/interests/travel.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Travel</a>
+    <a href="https://htmlprojectdaire-daireo.c9users.io/interests/cloud.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Cloud</a>
+    <a href="ebusiness/ebus1.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">eBusiness</a>
   </div>
-</nav>
-        <center><u><h1 class="mainheading">Sports</h1></u></center>
-        <center><p><strong>Favourite Sport:</strong> Rugby</p></center>
-        <center><strong>Favourite Player:</strong> Johnny Sexton</center><br></h2>
-        <center><img src="https://i.imgur.com/AgoDDOm.gif"></img></center>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="CV/page1.html" class="w3-bar-item w3-button w3-padding-large">CV</a>
+    <a href="interests/sports.html" class="w3-bar-item w3-button w3-padding-large">Sport</a>
+    <a href="interests/travel.html" class="w3-bar-item w3-button w3-padding-large">Travel</a>
+    <a href="interests/cloud.html" class="w3-bar-item w3-button w3-padding-large">Cloud</a>
+    <a href="ebusiness/ebus1.php" class="w3-bar-item w3-button w3-padding-large">eBusiness</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:50px 16px">
+  <h1 class="w3-margin w3-jumbo">Sport</h1>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-full">
+      <center><h1><u>Favourite Sportsperson: Johnny Sexton</U></h1></center>
+      <h5>Jonathan Sexton is an Irish rugby union player. He plays for Leinster Rugby and Ireland. Sexton was born in Dublin, but has family ties to North Kerry;
+      he is a nephew of former Garryowen, Munster and Ireland rugby player William Sexton. He attended St Mary's College, Dublin and scored a drop goal in the 
+      dying moments of the school's 2002 Leinster Senior Cup final win. His performances at St. Mary's led to Sexton being selected for Leinster. He made his 
+      debut against Border Reivers in 2006. Sexton holds a Bachelor of Commerce degree from University College Dublin.</h5><br>
+      <center><img src="https://i.imgur.com/AgoDDOm.gif" width=100% </img></center>
         <center><h3>Sexton's iconic last minute winning drop kick that got Ireland's 2018 Six Nations campaign off to a winning start.</h3></center>
         <br>
-    </body>
+         <center><h3>Sexton's Irish Career</h3></center>
+  <p>Sexton was selected to play for Ireland A in the 2009 Churchill Cup. Ireland A won the tournament, beating England Saxons 49–22 in the final with Sexton scoring
+  15 points despite being sin-binned. Sexton won his first cap for Ireland in the Test against Fiji at the RDS in Dublin on 21 November 2009 scoring 16 points 
+  (5 conversions and 2 penalty goals), kicking 7 from 7 in extremely difficult weather conditions and winning Man of the Match with his impressive International debut.
+  On 24 November 2009, Sexton was selected ahead of veteran fly-half Ronan O'Gara in Ireland's autumn international against world cup champions South Africa at Croke 
+  Park. He kicked all of Ireland's 15 points and, after the match, it was revealed that Sexton had played out Ireland's thrilling 15–10 victory with a broken hand.
+  Sexton returned to the Ireland squad for the 2010 Six Nations, he came on as a substitute in Ireland's loss against France. 
+  He was selected to earn his first Six Nations start in the match against England in Twickenham on 27 February 2010. Ireland won the game 20–16 at 
+  Twickenham with Sexton before being replaced by Ronan O'Gara late in the game. Sexton started against Wales and Scotland, being replaced by Ronan O'Gara
+  in both games towards the end. Over the six nations, his kicking success rate was much lower than in his first few tests, missing several kicks.
+  Sexton started Ireland's first two pool matches in the 2011 Rugby World Cup and came off the bench in their last two pool matches. He came off the bench in a 10–22 defeat against Wales.
+Sexton was arguably Ireland's most influential player in their 2014 Six Nations win and was the joint highest try scorer in the championship with four tries. 
+In the final match against France in Paris he scored two tries and scored 17 of the teams 22 points on their way to winning the match and with it the 2014 RBS 
+6 Nations Championship. Despite worries of a thumb injury hindering his participation midway through the competition, Sexton competed in every game, losing only
+one to England at Twickenham.Sexton started all five 2016 Six Nations matches. He scored 11 points (three penalties and a conversion) in a 16–16 draw with Wales. 
+In the second match he scored all of Ireland's points in a 9–10 defeat to France. In the third match he scored three points in a 10–21 defeat to England. In the 
+penultimate match of the tournament he scored nine points (a penalty and three conversions) in a 58–15 win against Italy. In the last match of the tournament he 
+scored 15 points (three penalties and three conversions) against Scotland. Despite getting sin binned in the 76th minute for a maul infringement Ireland won 35–25.
+On 2 June, Sexton was ruled out of the 2016 tour of South Africa after he sustained a shoulder injury in the Pro12 Grand Final. Sexton started the 2016 end of year 
+international against New Zealand in Chicago. He scored two penalties and two conversions in a 40–29 win. Sexton missed the first two matches of the 2017 Six Nations
+but started the last three matches of the tournament. In Ireland's opening 2018 Six Nations Championship fixture against France on 3 February 2018, Sexton scored 
+an 83rd minute drop-goal after 41 phases to give Ireland a 15–13 away victory.
+</p>
+      </div>
+      
+
+    <div class="w3-third w3-center">
+       
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Daire O Nuallain 117363273</h1>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button, codde taken from w3 schools.
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
 </html>
