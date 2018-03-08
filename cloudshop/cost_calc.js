@@ -62,15 +62,15 @@ function rbChecked(){
     
     /* Displays the picture of the selected radio button product */
     if(document.getElementById('salesforce').checked) {
-      document.getElementById('pic_test').src='../Images/salesforce_logo.png';
+      document.getElementById('pic_test').src='../Images';
     }
     else if (document.getElementById('cloud9').checked){
-      document.getElementById('pic_test').src='../Images/cloud9_logo.png';
+      document.getElementById('pic_test').src='../Images';
     }
     else if (document.getElementById('aws').checked){
-      document.getElementById('pic_test').src='../Images/aws_logo.png';
+      document.getElementById('pic_test').src='../Images';
     }
     else{
-      document.getElementById('pic_test').src='../Images/gmail_logo.png';
+      document.getElementById('pic_test').src='../Images';
     }
 }

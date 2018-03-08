@@ -1,0 +1,198 @@
+.mainheading{
+    text-align: center;
+    border-bottom: 1px solid #BDBDBD;
+    color:#212121;
+    width:50%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+  
+ }
+ 
+ button a {
+     color:white;
+ }
+ 
+    .text{
+    text-align: left;
+    color:#212121;
+    font-family: Arial, Helvetica, sans-serif;
+    width:50%;
+    margin-left:25%;
+ }
+ 
+.container {
+    position: relative;
+    text-align: center;
+    color:#212121;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1500%;
+    color:#212121;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+     
+ 
+ 
+ /* nav bar inspiration taken from youtube video https://www.youtube.com/watch?v=FEmysQARWFU 
+ nav {
+     float:left;
+ }
+ 
+ 
+header {
+   background: #f44336;
+   border-bottom: 10px solid #ffff;
+}
+
+header::after {
+    content: " ";
+    display:table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding-left:10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav li {
+    display: inline-block;
+    margin-left: 75px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center
+}
+
+nav a:hover { 
+    color: black;
+}
+/* end of nav bar style */ 
+
+
+/* style for cloud services vendor */
+ .SubHeading{
+     border-bottom: 1px solid #BDBDBD;
+     color:#212121;
+     font-size: 150%;
+ }
+
+.Info{
+    max-width:50%; 
+    padding-left:5%;
+    font-size: 120%;
+}
+
+
+.shop{
+    color:#212121;
+    width:35%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+}
+
+/* style for ebus buttons */
+
+.btnCart {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-size: 105%;
+    transition-duration: 0.3s;
+}
+
+.btnCart:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btnCost{
+    display: inline-block;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FFA000;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-size: 105%;
+    transition-duration: 0.3s;
+}
+
+.btnCost:hover {
+    background-color:#FFA000;
+    color: white;
+}
+
+.btnClear{
+    display: inline-block;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FF5252;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-size: 105%;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+
+.btnClear:hover {
+    background-color:#FF5252;
+    color: white;
+}
+
+.btnNext{
+    display: inline-block;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-size: 105%;
+    transition-duration: 0.3s;
+}
+.btnNext:hover {
+    background-color:#4CAF50;
+    color: white;
+}
+
+.btnNext:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btnValidate{
+    display: inline-block;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #1976D2;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-size: 105%;
+    transition-duration: 0.3s;
+}
+.btnValidate:hover {
+    background-color:#1976D2;
+    color: white;
+}
